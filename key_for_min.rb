@@ -6,6 +6,5 @@ def key_for_min_value(hash)
     if num == 1 || num == 10 
       return name
     end
-    return nil
   end
 end
