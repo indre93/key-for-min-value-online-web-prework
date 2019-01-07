@@ -3,9 +3,7 @@
 
 def key_for_min_value(hash)
   hash.each do |name, num|
-    if hash == {}
-      nil
-    else num == 1 or num == 10 
+    if num == 1 || num == 10 
       return name
     end
   end
