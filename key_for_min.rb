@@ -5,6 +5,8 @@ def key_for_min_value(hash)
   hash.each do |name, num|
     if num == 1 || num == 10 
       return name
+    else hash == {}
+      return nil
     end
   end
 end
